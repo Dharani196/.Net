@@ -4,32 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab2
+namespace lab1
 {
-    class Programm
-    { }
-
-namespace oops
-    { 
-        public interface xyz
+    class Program
+    {
+        static void Main(string[] args)
         {
-            void methodA();
-            void methodB();
-        }
-
-          
-        class test : xyz
-        {
-            public void methodA()
-            {
-                Console.WriteLine("methodA");
-            }
-            public void methodB()
-            {
-                Console.WriteLine("methodB");
-            }
-        }    
-        
         }
     }
-
+}
